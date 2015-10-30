@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Resultados | buscaIES</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/semantic.css">
+        <link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+		<!-- Framework necessário para rodar o script -->
+        <script type='text/javascript' src="js/jquery.autocomplete.js"></script>
+        <!-- Plugin necessário para rodar o script -->
+		<link rel="stylesheet" type="text/css" href="js/jquery.autocomplete.css" />
+        <!-- CSS criado para organizar o autocomplete -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- Script para buscar no nome dentro do banco de dados, de acordo com o arquivo autocomplete.php -->
+    </head>
+    <body>
+        
+        <div class="ui grid" id="menu_acessibilidade">
+            <div class="eight wide column" id="esquerdo">
+                <a>
+                    Pular conteúdo [1]
+                </a>
+                <a class="item">
+                    Pular busca avançada [2]
+                </a>
+            </div>
+            <div class="eight wide column" id="direito">
+                <a>
+                    -A
+                </a>
+                <a class="item">
+                    A
+                </a>
+                <a class="item">
+                    +A
+                </a>
+                <a>
+                    Alto Contraste
+                </a>
+                <a class="item" href="acessibilidade.html">
+                    Acessibilidade
+                </a>
+                <a class="item" href="mapa_site.html">
+                    Mapa do site
+                </a>
+            </div>
+        </div>
+        <div class="ui green inverted menu" id="menu">
+            <a class="active item">
+                Por Região
+            </a>
+            <a class="item">
+                Por Proximidade
+            </a>
+            <a class="item">
+                Sobre
+            </a>
+            <a href="fale_conosco.html" class="item">
+                Fale Conosco
+            </a>
+        </div>
+        <div class="ui grid" id="barra_busca">
+            <div class="eight wide column">
+                <a href="index.html">
+                    <img id="logo" src="images/buscaies.png"></img>
+                </a>
+            </div>
+            <div class="eight wide column">
+                    <div class="ui right aligned segment" id="busca">
+                        <div class="ui icon input" >
+                            <input type="text" name="course" id="course" placeholder="Procurar...">
+                            <i class="inverted search icon">
+                                <img src="images/busca.png"/>
+                            </i>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    
+        <div class="ui divider" id="divisao"></div>
+    
+        <div class="ui grid" id="cont">
+            <div class="eight wide column" id="coluna1_tit">
+                Conteúdo
+            </div>
+            <div class="eight wide column" id="coluna2_tit">
+                Mostrando 1-10 de 13 resultados encontrados
+            </div>
+            <div class="ui divider" id="div2"></div>
+            <div class="eight wide column" id="coluna1">
+                <ul class="ui list">
+                  <li>Região</li>
+                    <ul>
+                        <li><input type="checkbox">Centro-Oeste</li>
+                        <li><input type="checkbox">Nordeste</li>
+                        <li><input type="checkbox">Norte</li>
+                        <li><input type="checkbox">Sudeste</li>
+                        <li><input type="checkbox">Sul</li>
+                    </ul>
+                  <li>Estado</li>
+                    <ul>
+                        <li><input type="checkbox">Brasília</li>
+                        <li><input type="checkbox">Goiás</li>
+                        <li><input type="checkbox">Mato Grosso</li>
+                    </ul>
+                  <li><input type="checkbox">Usar minha localização</li>
+                  <li>Tipo de organização</li>
+                     <ul>
+                        <li><input type="checkbox">Centro Universitários</li>
+                        <li><input type="checkbox">Faculdade</li>
+                        <li><input type="checkbox">Universidade</li>
+                     </ul>
+                  <li>Rede</li>
+                     <ul>
+                        <li><input type="checkbox">Privada</li>
+                        <li><input type="checkbox">Pública</li>
+                     </ul>
+                </ul>
+            </div>
+            <div class="eight wide column" id="coluna2">
+                <div class="ui divided list">
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                    <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                    <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                    <div class="item">
+                            <div class="content">
+                                  <div class="header">Universidade Araripina</div>
+                                  UARA - Universidade de Araripina, localizada na cidade de Niterói - RJ. 
+                                  <br/>
+                                  Telefone (88) 8888-888
+                            </div>
+                      </div>
+                </div>
+                <div class="ui pagination menu">
+                      <a class="icon item">
+                            <i class="left arrow icon"></i>
+                      </a>
+                      <a class="active item">
+                          1
+                      </a>
+                      <a class="item">
+                            2
+                      </a>
+                      <div class="disabled item">
+                          ...
+                      </div>
+                      <a class="item">
+                            10
+                      </a>
+                      <a class="item">
+                            11
+                      </a>
+                      <a class="item">
+                          12
+                      </a>
+                      <a class="icon item">
+                            <i class="right arrow icon"></i>
+                      </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="ui grid" id="rodape">
+            <div class="eight wide column">
+                <a>
+                    Sobre
+                </a>
+                <a class="item" href="fale_conosco.html">
+                    Fale Conosco
+                </a>
+            </div>
+            <div class="eight wide column" id="direito">
+                <a>
+                    <img src="images/up.png"/>
+                </a>
+            </div>
+        </div>
+</body>
+</html>

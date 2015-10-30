@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>buscaIES</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/semantic.css">
+		<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+		<!-- Framework necessário para rodar o script -->
+        <script type='text/javascript' src="js/jquery.autocomplete.js"></script>
+        <!-- Plugin necessário para rodar o script -->
+		<link rel="stylesheet" type="text/css" href="js/jquery.autocomplete.css" />
+        <!-- CSS criado para organizar o autocomplete -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- Script para buscar no nome dentro do banco de dados, de acordo com o arquivo autocomplete.php -->
+    </head>
+    <body>
+        <div class="ui grid" id="menu_acessibilidade">
+            <div class="eight wide column" id="esquerdo">
+                <a>
+                    Pular conteúdo [1]
+                </a>
+                <a class="item">
+                    Pular busca avançada [2]
+                </a>
+            </div>
+            <div class="eight wide column" id="direito">
+                <a>
+                    -A
+                </a>
+                <a class="item">
+                    A
+                </a>
+                <a class="item">
+                    +A
+                </a>
+                <a>
+                    Alto Contraste
+                </a>
+                <a class="item" href="acessibilidade.html">
+                    Acessibilidade
+                </a>
+                <a class="item" href="mapa_site.html">
+                    Mapa do site
+                </a>
+            </div>
+        </div>
+        <div class="ui green inverted menu" id="menu">
+            <a class="active item">
+                Por Região
+            </a>
+            <a class="item">
+                Por Proximidade
+            </a>
+            <a class="item">
+                Sobre
+            </a>
+            <a href="fale_conosco.html" class="item">
+                Fale Conosco
+            </a>
+        </div>
+        <div class="ui grid" id="barra_busca">
+            <div class="eight wide column">
+                <a href="index.html">
+                    <img id="logo" src="images/buscaies.png"></img>
+                </a>
+            </div>
+            <div class="eight wide column">
+                    <div class="ui right aligned segment" id="busca">
+                        <div class="ui icon input" >
+                            <input type="text" name="course" id="course" placeholder="Procurar...">
+                            <i class="inverted search icon">
+                                <img src="images/busca.png"/>
+                            </i>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    
+        <!--div class="ui divider" id="divisao"></div-->
+    
+        <div class="ui grid" id="secao1">
+            <div class="eight wide column" id="direito">
+                
+                <h3>Encontre<h2>Instituições de <br>Ensino Superior</h2>de forma prática e rápida!</h3><br><br><i>Basta clicar na região<br> desejada no mapa ao lado.</i>
+            </div>
+            <div class="eight wide column">
+                <img id="mapa" src="images/mapa.png"></img>
+            </div>
+        </div>
+    
+        <div class="ui grid" id="secao2">
+            <div class="eight wide column">
+                <div class="ui segment" id="tabela">
+                    <table class="ui table segment" >
+                      <tbody>
+                        <tr class="active">
+                          <td>Faculdade Paraíso do Ceará</td>
+                        </tr>
+                        <tr>
+                          <td>Rua da Conceição, 1280. Juazeiro do Norte - CE</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="ui segment" id="tabela">
+                    <table class="ui table segment" >
+                      <tbody>
+                        <tr class="active">
+                          <td>Faculdade Paraíso do Ceará</td>
+                        </tr>
+                        <tr>
+                          <td>Rua da Conceição, 1280. Juazeiro do Norte - CE</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="ui segment" id="tabela">
+                    <table class="ui table segment" >
+                      <tbody>
+                        <tr class="active">
+                          <td>Faculdade Paraíso do Ceará</td>
+                        </tr>
+                        <tr>
+                          <td>Rua da Conceição, 1280. Juazeiro do Norte - CE</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <a class="ui black button">Ver Detalhes</a>
+            </div>
+            <div class="eight wide column" id="esquerdo">
+                <h2>Próximas de você!</h2>Estas são as IES<br>mais próximas de você.
+            </div>
+        </div>
+    
+        <div class="ui grid" id="rodape">
+            <div class="eight wide column">
+                <a>
+                    Sobre
+                </a>
+                <a href="fale_conosco.html">
+                    Fale Conosco
+                </a>
+            </div>
+            <div class="eight wide column" id="direito">
+                <a>
+                    <img src="images/up.png"/>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,270 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
+
+body{
+    font-family: 'Lato', sans-serif, serif;
+    margin:0;
+}
+
+#menu_acessibilidade{
+    background-color: #c7c7c7;
+    padding: 0 150px;
+    height: 30px;
+}
+
+#menu_acessibilidade #esquerdo{
+    text-align: left;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#menu_acessibilidade #direito{
+    text-align: right;
+    margin: 0;
+    margin-top: 3px;
+}
+
+#menu_acessibilidade a{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    margin: 0;
+    color: #000;
+}
+
+#menu{
+    background-color: #406e49;
+    text-align: center;
+    margin: 0;
+    border-radius: 0;
+}
+
+#menu a{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#barra_busca{
+    padding: 0 150px;
+}
+
+#logo{
+    height:40px;
+}
+
+#busca{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+#busca input{
+    width: 450px;
+}
+
+#busca img{
+    width: 20px;
+}
+
+#divisao{
+    margin:0;
+    border-top: 5px solid #406e49;
+}
+
+#esquerdo-cont{
+    margin-top: 150px;
+    text-align: right;
+}
+
+#direito-cont img{
+    width: 175px;
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+#rodape{
+    background-color: #c7c7c7;
+    padding: 0 150px;
+    height: 50px;
+}
+
+#rodape a{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    margin: 0;
+    color: #000;
+    text-decoration: none !important;
+}
+#rodape #direito{
+    text-align: right;
+    margin: 0;
+}
+
+#rodape #direito a{
+    margin: 0;
+}
+#rodape #direito img{
+    margin-top: 5px;
+    width: 40px;
+}
+
+#secao1{
+    padding: 0 150px;
+    background: url(../images/bg1.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#secao1 #direito{
+    margin-top: 100px;
+}
+
+#secao1 #direito h2,#secao1 #direito h3{
+    margin: 0;
+}
+
+#secao1 img{
+    width: 400px;
+}
+
+#secao2 {
+    padding: 0 150px;
+}
+
+#tabela{
+    margin: 0;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+#secao2 a{
+    background-color: #406e49;
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#secao2 #esquerdo{
+    text-align: right;
+    margin-top: 100px;
+}
+
+#secao1_fale{
+    padding: 0 150px;
+    background: url(../images/bg2.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+
+#secao1_fale #direito{
+    margin-top: 150px;
+}
+
+#secao1_fale h1{
+    margin: 0;
+}
+
+#secao1_fale p{
+    font-size: 20px;
+}
+
+#secao1_fale input{
+    padding-left: 1rem !important;
+}
+
+#secao1_fale #submit{
+    background-color: #406e49;
+    float: right;
+}
+
+#secao1_fale #form{
+    background: transparent;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+    padding-right: 0;
+}
+
+#secao1_fale label{
+    color: #fff;
+    font-size: 1rem;
+}
+
+#secao1_fale #direito h2,#secao1_fale #direito h3{
+    margin: 0;
+}
+
+#secao1_fale img{
+    width: 400px;
+}
+
+#secao2_fale {
+    padding: 0 150px;
+}
+
+#secao2_fale #esquerdo{
+    text-align: right;
+    margin-top: 100px;
+}
+
+#secao2_fale #questions{
+    background-color: #406e49; 
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#cont{
+    padding: 0 150px;
+}
+
+#coluna1_tit, #coluna2_tit{
+    margin-bottom: 0;
+}
+
+#coluna1_tit{
+    width: 25%;
+}
+
+#div2{
+    margin:0;
+    margin-top: 3px;
+}
+
+#coluna1{
+    width: 25%;
+    
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.ul.ui.list li:before,
+.ui.bulleted.list .item:before {
+  position: absolute;
+  left: -1.5em;
+  content: '';
+}
+
+#coluna2{
+    width: 75%;
+    text-align: center;
+}
+
+.ui.divided.list .item{
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#secao2_acess{
+    padding: 20px 150px;
+    width: 100%;
+    text-align: justify;
+}
+
+.ui.items > .row > .item, .ui.items > .item{
+    min-height: 200px;
+}
+
+#secao2_acess .name{
+    text-align: center;
+}
